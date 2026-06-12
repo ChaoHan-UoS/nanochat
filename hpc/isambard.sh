@@ -15,7 +15,7 @@ echo ""
 echo "====== Running task ${SLURM_JOB_ID} ======"
 
 echo ""
-bash runs/speedrun.sh
+WANDB_RUN=speedrun bash runs/speedrun.sh
 echo ""
 
 echo "====== Task ${SLURM_JOB_ID} done ======"
